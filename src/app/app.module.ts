@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { EventsAppComponent } from './events-app.component';
+import { EventListComponent } from './events/event-list.component';
 
 @NgModule({
   declarations: [
-    EventsAppComponent
+    EventsAppComponent,
+    EventListComponent
   ],
   imports: [
     BrowserModule,
