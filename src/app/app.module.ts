@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { EventsAppComponent } from './events-app.component';
-import { EventListComponent } from './events/event-list.component';
+import { EventListComponent } from './events/events-list.component';
 
 @NgModule({
   declarations: [
